@@ -44,8 +44,8 @@ above the significance level of 0.05 which means there is not enough evidence to
 ![ttest_lot2.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot2.png)
 **Lot 2 has a P-Value of 0.6072 or ~0.61, there is not enough evidence and therefore, we cannot reject the null hypothesis.**
 
-<br />
+
 **LOT 3**
 ![ttest_lot3.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot3.png)
-**In contrast, Lot 3 has a P-Value of 0.04168, which is below the significance level of 0.05. This means that there is enough evidence to reject the null hypothesis..**
+**In contrast, Lot 3 has a P-Value of 0.04168, which is below the significance level of 0.05. This means that there is enough evidence to reject the null hypothesis.**
 
