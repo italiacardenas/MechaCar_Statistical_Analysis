@@ -7,26 +7,16 @@ To perform the analysis RStudio Version 1.4.1717 was used.
 
 ## Linear Regression to Predict MPG
 
-###Results
+## Results
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+According to the summary results of performed linear regression, vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the linear model. The slope of the model is not considered to be zero. The r-squared value is 0.7149 which means that about 71% of the variability of MPG is explained using this linear model. The p-value is significantly smaller than the assumed significance level of 0.05% this means that we can reject the null hypothesis and the slope of our linear model is not zero. The linear model may not be predicting MPG of Mechacar prototypes effectively because of the significant intercepts of vehicle length and clearance, which may need scaling or transforming to help improve the predictive power. Additionally, the lack of significant variables is evidence of overfitting.
+
 ![del_1_lm_summary.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/3546e116c6238ae18b860cd40125be48c43bb91b/Screenshots/del_1_lm_summary.png)
 
-2. Because most of the data was within 60 minutes, hours 1 and 2 were deselected. This graph shows that the majority of the trips lasted roughly 5 minutes.
-![usertripduration.png](https://github.com/italiacardenas/bikesharing/blob/28a2d9c5a9ced1486ad76ad2955f80180431112f/usertripduration.png)
 
-3. The results of the Trips by Weekday per Hour graph are consistent with the month of August's peak hours.
-![tripsbyweekdayperhour.png](https://github.com/italiacardenas/bikesharing/blob/2c5be630218c07f71d64cedf583ce80e34ecbbf0/tripsbyweekdayperhour.png)
-
-4. The pie chart was used to determine who the majority of the users were. The results show that male users dominate the NYC CitiBie usage.
-![usersbygender.png](https://github.com/italiacardenas/bikesharing/blob/2c5be630218c07f71d64cedf583ce80e34ecbbf0/usersbygender.png)
-
-5. The following line chart shows that the trip duration varies depending on the gender of the user.
-![durationbygender.png](https://github.com/italiacardenas/bikesharing/blob/2c5be630218c07f71d64cedf583ce80e34ecbbf0/durationbygender.png)
-
-6. This heatgraph also reiterates the information displayed in the August Bar Graph which implies that most of the trips occur between 8am-9am and 5pm-7pm. It also provides more insight, by identifying Monday- Friday as the days most trips occur.
-![tripsbyweekdayperhour.png](https://github.com/italiacardenas/bikesharing/blob/2c5be630218c07f71d64cedf583ce80e34ecbbf0/tripsbyweekdayperhour.png)
-
-7. While, this grapoh is also consitent in terms of the time most trips occur, it clearly shows that the main consumer of NYC CitiBikies is the gender: Male.
-![tripsbyweekdayandgender.png](https://github.com/italiacardenas/bikesharing/blob/2c5be630218c07f71d64cedf583ce80e34ecbbf0/tripsbyweekdayandgender.png)
 
 
 
