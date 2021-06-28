@@ -28,9 +28,13 @@ However the Summary by Lot chart proposes that suspension coils in Manufacturing
 
 ## T-Tests on Suspension Coils
 
+** Manufacturing Lots vs Population Mean (T-test)
 ![Entire_data_ttest.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/Entire_data_ttest.png)
+The P-Value of all manufacturing lots against the entire population mean is 0.06028, this is 
+above the significance level of 0.05 whichc means there is not enough evidence to reject the null hypothesis. This means that the PSI across the entire datset is statistically similar to the population mean of 1498.78 PSI.
 
 ![ttest_lot1.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot1.png)
+Lot one has a P-Value of exactly 1, this means that the sample is identical to the entire population which means it is not statistically significant. 
 
 ![ttest_lot2.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot2.png)
 
