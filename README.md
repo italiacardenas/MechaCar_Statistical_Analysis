@@ -14,7 +14,7 @@ According to the summary results of performed linear regression, vehicle length 
 
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The analysis below was performed in order to determine whether guidelines are being met by Lot.**
 
 
 **Total Summary**
@@ -28,17 +28,24 @@ However the Summary by Lot chart proposes that suspension coils in Manufacturing
 
 ## T-Tests on Suspension Coils
 
-** Manufacturing Lots vs Population Mean** (T-test)
+**Manufacturing Lots vs Population Mean** (T-test)
 ![Entire_data_ttest.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/Entire_data_ttest.png)
+
 **The P-Value of all manufacturing lots against the entire population mean is 0.06028, this is 
 above the significance level of 0.05 which means there is not enough evidence to reject the null hypothesis. This means that the PSI across the entire datset is statistically similar to the population mean of 1498.78 PSI.**
-
+<br />
+**LOT 1**
 ![ttest_lot1.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot1.png)
-**Lot 1 has a P-Value of exactly 1, this means that the sample is identical to the entire population which means we cannot reject the null hypothesis.**
 
+**Lot 1 has a P-Value of exactly 1, this means that the sample is identical to the entire population which means we cannot reject the null hypothesis.**
+<br />
+
+**LOT 2**
 ![ttest_lot2.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot2.png)
 **Lot 2 has a P-Value of 0.6072 or ~0.61, there is not enough evidence and therefore, we cannot reject the null hypothesis.**
 
+<br />
+**LOT 3**
 ![ttest_lot3.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot3.png)
 **In contrast, Lot 3 has a P-Value of 0.04168, which is below the significance level of 0.05. This means that there is enough evidence to reject the null hypothesis..**
 
