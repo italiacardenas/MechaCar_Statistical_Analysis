@@ -25,3 +25,14 @@ According to the total summary the variance of suspension coils across the datas
 **Summary by Lot**
 However the Summary by Lot chart proposes that suspension coils in Manufacturing Lot #3 do exceed the design specifications for the MechaCar prototypes. This means that this could be one of the production problems the project is experiencing.
 ![lot_summary.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/6650d123685e287fdb00447727bb654017b1a55f/Screenshots/lot_summary.png)
+
+## T-Tests on Suspension Coils
+
+![Entire_data_ttest.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/Entire_data_ttest.png)
+
+![ttest_lot1.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot1.png)
+
+![ttest_lot2.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot2.png)
+
+![ttest_lot3.png](https://github.com/italiacardenas/MechaCar_Statistical_Analysis/blob/1c673ce8a448831498edb79ef04311b1d34e2344/Screenshots/ttest_lot3.png)
+
