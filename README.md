@@ -50,8 +50,12 @@ above the significance level of 0.05 which means there is not enough evidence to
 **In contrast, Lot 3 has a P-Value of 0.04168, which is below the significance level of 0.05. This means that there is enough evidence to reject the null hypothesis.**
 
 ## Study Design: MechaCar vs Competition
-In order to quantify gow the MechaCar performs against competitors
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+In order to quantify gow the MechaCar performs against competitors it would firstly be important to determine what consumers ar einterested in knowing about the MechaCar performance. A simple Google search led me to ne of the leading companies in Car Sales, Edmunds.com and found the follwoing metrics to be important for consumers (because people are always in a hurry and need to know how quickly they can get from point A to point B with the least amount of energy!):
+  1. MPG
+  3. Highway Effieciency Fuel
+  4. City Efficiency Fuel 
+ 
+To perform this statistical analysis, the null hypothesis will follow the assumed P-Value of 0.05 and the closer the results are to this P-Value the less likely they are significantly different. This means that if the results show a P-Value close to 0.05 then we cannot reject the null hypothesis. If the P-Value is above 0.05 then we could state that there is not enough evidence to reject the null hypothesis.
+
+To succeed in this analysis we would need to compare the means by metric across all the manufacturers we are comparing against MechaCar. To do so, the one-way ANOVA test would be best since we are dealing with continuous numerical variables. A two-way ANOVA test might also be used if we want to use two independet variables.
+
